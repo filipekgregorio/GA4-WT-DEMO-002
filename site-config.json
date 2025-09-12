@@ -1,0 +1,36 @@
+{
+  "motel": {
+    "name": "Mountain View Lodge",
+    "domain": "motel2.com",
+    "phone": "(555) 987-6543",
+    "email": "info@mountainviewlodge.com",
+    "address": "456 Mountain Road, Alpine Valley, CO 80424",
+    "ga4Id": "G-MOTEL2XXXXX",
+    "theme": {
+      "primaryColor": "#2c3e50",
+      "secondaryColor": "#e67e22",
+      "accentColor": "#8e44ad"
+    },
+    "specialties": [
+      "Mountain Views",
+      "Hiking Trail Access",
+      "Ski Equipment Storage",
+      "Hot Tub & Sauna"
+    ]
+  },
+  "analytics": {
+    "gtmId": "GTM-XXXXXXX",
+    "ga4Id": "G-MOTEL2XXXXX",
+    "consentRequired": true
+  },
+  "deployment": {
+    "domain": "motel2.com",
+    "environment": "development"
+  },
+  "features": {
+    "booking": true,
+    "newsletter": true,
+    "phoneTracking": true,
+    "scrollTracking": true
+  }
+}

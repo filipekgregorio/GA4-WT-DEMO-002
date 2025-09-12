@@ -1,0 +1,23 @@
+{
+  "name": "motel2-com",
+  "version": "1.0.0",
+  "description": "Mountain View Lodge website with GA4 analytics",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "serve": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "motel",
+    "analytics",
+    "ga4",
+    "gtm"
+  ],
+  "author": "Motel Analytics System",
+  "license": "MIT",
+  "config": {
+    "domain": "motel2.com",
+    "ga4Id": "G-MOTEL2XXXXX",
+    "motelName": "Mountain View Lodge"
+  }
+}
