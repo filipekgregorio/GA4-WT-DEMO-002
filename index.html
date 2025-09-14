@@ -33,7 +33,7 @@
     />
 
     <!-- Default Consent State -->
-    <script>
+    <!-- <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
@@ -45,7 +45,16 @@
         ad_storage: 'denied',
         wait_for_update: 500
       });
-    </script>
+    </script> -->
+
+    <!-- GA4 MID into dataLayer -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        dataLayer.push({
+          ga4MeasurementId: 'G-QKKRDTG5JG'
+        });
+      </script>
+      <!-- GA4 MID into dataLayer -->
 
     <!-- Google Tag Manager -->
     <script>
